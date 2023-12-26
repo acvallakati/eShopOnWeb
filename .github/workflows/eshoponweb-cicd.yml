@@ -72,9 +72,9 @@ jobs:
     - name: Azure Login
       uses: azure/login@v1
       with:
-       "clientId": "0d67acab-8306-451f-87b8-597e6abe7f0b",
-       "subscriptionId": "b8b42bf2-30a4-47db-bcea-b16f2ac00419",
-       "tenantId": "af9a07df-140a-4a28-8035-3372e5cee7cc",
+       "clientId": "0d67acab-8306-451f-87b8-597e6abe7f0b"
+       "subscriptionId": "b8b42bf2-30a4-47db-bcea-b16f2ac00419"
+       "tenantId": "af9a07df-140a-4a28-8035-3372e5cee7cc"
        
     # Deploy Azure WebApp using Bicep file
     - name: deploy
